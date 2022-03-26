@@ -22,7 +22,7 @@
 **29/03/2022**
 ***
 
-# **[Configuració i comprovació de logs]** ![Interfaz de usuario gráfica, Texto, Aplicación Descripción generada     automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/percona%2Bssl.png)
+# **[Configuració i comprovació de logs]** ![Interfaz de usuario gráfica, Texto, Aplicación Descripción generada     automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/logs.png)
 
 
 ***
