@@ -27,8 +27,3 @@
 
 ***
 
-Webgrafia:
-
--   *<https://docs.mongodb.com/v5.0/tutorial/install-mongodb-on-red-hat/>*
-
--   *<https://www.youtube.com/watch?v=NB-l3AeYxDg&ab_channel=Academind>*
