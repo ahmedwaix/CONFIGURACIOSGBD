@@ -25,7 +25,7 @@
 # **[ÍNDEX]** 
 
 
-1. Configuració i comprovació de logs: *https://github.com/ahmedwaix/InstallacioSGBD/blob/main/Percona.md*
+1. Configuració i comprovació de logs: *https://github.com/ahmedwaix/CONFIGURACI-SGBD/blob/main/Configuraci%C3%B3%20i%20comprovaci%C3%B3%20de%20logs*
     1. Creació i activació del fitxer de configuració
     2. Comprovació de l'estat de les opcions de log
     3. Modificació del fitxer de configuració i desactivació dels logs
