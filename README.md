@@ -51,5 +51,6 @@
   
     9. Desactivació del binary log d’una sessió
 2. Configuració del servidor percona server per connexions SSL: *https://github.com/ahmedwaix/InstallacioSGBD/blob/main/Percona.md*
+
     1. Comprovació de la connexió mitjançant WireShark
     2. Configuració del servidor i connectivitat mitjançant SSL
