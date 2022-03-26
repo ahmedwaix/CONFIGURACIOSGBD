@@ -50,7 +50,7 @@
         7.Visualitxació del fitxer mysql-bin.000002 mitjançant mysqlbinlog
   
     9. Desactivació del binary log d’una sessió
-2. Configuració del servidor per connexions SSL: *https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/Configuraci%C3%B3%20del%20servidor%20per%20connexions%20SSL*
+2. Configuració del servidor per connexions SSL: *https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/Configuraci%C3%B3%20del%20servidor%20per%20connexions%20SSL.md*
 
     1. Comprovació de la connexió mitjançant WireShark
     2. Configuració del servidor i connectivitat mitjançant SSL
