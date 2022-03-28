@@ -401,10 +401,10 @@ logbin.000002
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image53.png)
 
-![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image54.png) 
-
 Com es veu a dins del fitxer s'enregistren molta informacio la mes rellevant es que ha guardat les dues
 sentencies CREATE TABLE bar i DROP TABLE bar
+
+![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image54.png) 
 
 Per saber el numero de event que es el CREATE TABLE bar a dins del
 fitxer veiem que posa at 233 es el numero de event del create table
