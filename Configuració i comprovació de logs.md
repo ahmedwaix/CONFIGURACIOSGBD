@@ -441,9 +441,11 @@ Per comprovar que la sentencia crearem una base de dades y la eliminarem
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image58.png)
 
-![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image59.png)
-
 Ara utilitzarem la sentencia binlog per
 veure que no queda enregistrat EL CREATE TABLE hola i DROP DATABASE
 hola, com es veu en la captura no ha quedat enregistrat.
+
+![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image59.png)
+
+
 
