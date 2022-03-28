@@ -175,7 +175,7 @@ estan activats i com es veu estan activats.
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image22.png)
 
 Per activar el log_bin hem d'anar al arxiu de configuració ja que no
-es pot fer amb el SET GLOBAL i per eliminar-ho tenim que anar a la ruta
+es pot fer amb el SET GLOBAL i per eliminar-ho hem d' que anar a la ruta
 del arxiu de configuració logs.cnf
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image7.png)
