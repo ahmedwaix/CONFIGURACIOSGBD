@@ -30,24 +30,24 @@
 **1.Quins són els logs activats per defecte? Crea un fitxer de
 configuració anomenat logs.cnf a on:**
 
-El log activat per defecte es el log binari, que ve activat per defecte
-per veure ho tenim que anar a mysql .
+El log activat per defecte es el *log binari*, que aquest be activat per defecte.
+Per veure-ho hem d'anar a mysql.
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image1.png)
 
-I introduïm la sentencia per veure les variables log , com es veu en la
-captura el log_bin esta activat per defecte
+Una vegada aquí introduïm la sentència per veure les variables log. Tal i com es veu en la
+captura el log_bin esta activat per defecte!
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image2.png)
 
-I en esta captura utilitzant la sentencia per mostrar variables, veiem
+En aquesta captura utilitzant la sentència per mostrar variables, veiem
 que el general log i el slow query estan desactivats
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image3.png)
 
-Per crear el arxiu de configuració logs.cnf primer de tot creem una nova
+Per crear el arxiu de configuració *logs.cnf* primer de tot creem una nova
 carpeta anomenada percona-server
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image4.png)
@@ -56,9 +56,9 @@ I creem el arxiu de configuració guardem y sortim.
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image5.png)
 
-Anem al arxiu de configuració my.cnf i tenim que fer un includedir per
+Anem al arxiu de configuració my.cnf i fem un includedir per
 que el arxiu de configuracio logs.cnf no el llegeix el mysql i per tant
-no es podrà activar els logs . Es per això que a dins del arxiu de
+no els pugui activar els logs. Es per això que a dins del arxiu de
 configuració my.cnf com es veu en la captura incloem la ruta de la
 carpeta que hem creat i guardem, així ens deixarà posar paràmetres que
 els llegirà el mysql.
@@ -73,13 +73,13 @@ Ara anem a la ruta on esta el arxiu de configuració logs.cnf .
 Una vegada ja estem a dins del arxiu de configuració logs.cnf modifiquem
 el arxiu logs.cnf posem entre claudàtors mysqld i activem el log General
 ,el log Slow Query i long query_time per que guardi registres que durin
-mes de 2 segons no modifiquem el log binari ja que ve activat per
-defecte .
+mes de 2 segons, això si no modifiquem el log binari ja que ve activat per
+defecte.
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image8.png)
 
-Anem al mysql
+Tornem a anar al mysql
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image1.png)
 
@@ -89,21 +89,19 @@ slow querry i el general
 ![Texto Descripción generada automáticamente con confianza
 media](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image9.png)
 
-Per anar a la ruta de el general log tenim que anar a la següent ruta i
-el que esta marcat es el arxiu on esta tots els logs de el general log.
+Per anar a la ruta de el general log hem d'anar a la següent ruta i el log que hem marcat es el arxiu on esta tots els logs del general log.
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image10.png)
 
-Per anar a la ruta de el binary log tenim que anar a la mateixa ruta que
-abans i es el que esta marcat son els arxius on estan els logs de el
+Per anar a la ruta de el binary log hem d'anar a la mateixa ruta d'abans i on esta marcat son els arxius on estan els logs del
 binary log
 
 ![Captura de pantalla con letras Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image11.png)
 
-Per anar a la ruta de el Slow Query log tenim que anar un altra vegada a
-la mateixa ruta que abans i el que esta marcat es el fitxer on es guarda
+Per anar a la ruta de el Slow Query log hem d'anar un altra vegada a
+la mateixa ruta que abans i on esta marcat es el fitxer on es guarda
 els logs de la Slow Query.
 
 ![Texto Descripción generada
@@ -116,7 +114,7 @@ una sessió de mysql client.**
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image13.png)
 
 **3\. Modifica el fitxer de configuració i desactiva els logs de binary,
-slow query i genral. Nota: Simplament desactiva\'ls no borris altres
+slow query i general. Nota: Simplament desactiva\'ls no borris altres
 paràmetres com la ruta dels fitxers, etc\...**
 
 Per modificar el fitxer de configuració i desactivar els logs de binary,
@@ -125,7 +123,7 @@ slow query i general anem a la ruta on esta el fitxer de logs.cnf.
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image14.png)
 
 I a dins del arxiu de configuració logs.cnf desactivem el general log
-posant ho a OFF, el slow query li posem un 0 i per desactivar el log
+posant ho a OFF, el slow query li posem un 0, i per desactivar el log
 binary posem el paràmetre "disable_log_bin" i ho guardem.
 
 ![Texto Descripción generada
@@ -176,7 +174,7 @@ estan activats i com es veu estan activats.
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image22.png)
 
-Per activar el log_bin tenim que anar al arxiu de configuració ja que no
+Per activar el log_bin hem d'anar al arxiu de configuració ja que no
 es pot fer amb el SET GLOBAL i per eliminar-ho tenim que anar a la ruta
 del arxiu de configuració logs.cnf
 
@@ -199,7 +197,7 @@ estan activats.
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image24.png)
 
-Per canviar el log_output a TABLE primer tenim que anar al arxiu de
+Per canviar el log_output a TABLE primer hem d'anar al arxiu de
 configuració logs.cnf
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image7.png)
@@ -220,8 +218,7 @@ que si ha canviat a table.
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image26.png)
 
-La taula on es guarden els logs generals es en "mysql.general_log" tenim
-que utilitzar la sentencia següent per veure el que conte.
+La taula on es guarden els logs generals es en "mysql.general_log" gem d'utilitzar la sentencia següent per veure el que conte.
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image27.png)
@@ -238,7 +235,7 @@ example Datebases.
 ![Tabla Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image28.png)
 
-Li donem click dret i copiar vinculo
+Li donem click dret, i premem sobre la opció de copiar vinculo
 
 ![Interfaz de usuario gráfica, Texto, Aplicación Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image29.png)
@@ -277,7 +274,7 @@ automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagen
 mitjançant una sentencia SQL.**
 
 Per contar quantes sentencies CREATE TABLE hi ha en la taula
-"mysql.general_log" tenim que utilitzar aquesta sentencia mysql i
+"mysql.general_log" hem d'utilitzar aquesta sentencia mysql i
 utilitzem el convert per desencriptar els arguments .
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image35.png)
@@ -302,11 +299,9 @@ segons.
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image37.png)
 
-Per comprovar que la sentencia que ha durant 11 segons esta a dins de la
-taula de Slow Query
-
-Fem la següent sentencia SELECT per veure que ha guardat el log del
-SLEEP, com es veu esta guardat i ha durant 11 segons
+Ara per comprovar que la sentencia que ha durat 11 segons esta a dins de la
+taula de Slow Query, fem la següent sentencia SELECT per veure que ha guardat el log del
+SLEEP. I tal com es veu en la captura esta guardat i ha durant 11 segons
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image38.png)
@@ -364,28 +359,27 @@ Creem una base de dades anomenada bar i la eliminem.
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image46.png)
 
-Per mostrar la llista de binlogs i també veure els últims canvis tenim
-que utilitzar tres sentencies. Primer utilitzem aquesta sentencia per
+Per mostrar la llista de binlogs i també veure els últims canvis hem d'utilitzar tres sentencies. Primer utilitzem aquesta sentencia per
 veure els canvis que hi ha en el binlog.000001.
 
 ![Interfaz de usuario gráfica Descripción generada automáticamente con
 confianza
 media](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image47.png)
 
-Ara utilitzarem aquesta sentencia per veure el que conte el
-binlog.000002 i com es veu ha quedat enregistrat DROP DATABASE bar i
+Ara utilitzarem la següent sentencia per veure el que conte el
+binlog.000002, tal i com es veu ha quedat enregistrat DROP DATABASE bar i
 CREATE DATABASE bar en el fitxer binlog.000002.
 
 ![Texto Descripción generada automáticamente con confianza
 media](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image48.png)
 
-Per veure tota la llista de fitxers binlog utilitzarem aquesta sentencia
+Per veure tota la llista de fitxers binlog utilitzarem la següent sentencia
 per veure tots el fitxers binlog.
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image49.png)
 
-Per eliminar el primer binlog tenim que utilitzar la següent sentencia
+Per eliminar el primer binlog hem d'utilitzar la següent sentencia
 posant el binlog.000002 per poder eliminar el primer.
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image50.png)
@@ -396,7 +390,7 @@ Com veiem en aquesta captura ha quedat eliminat el binlog.000001.
 confianza
 media](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image51.png)
 
-Per poder utilitzar el programa mysqlbinlog tenim que sortir del mysql i
+Per poder utilitzar el programa mysqlbinlog hem de sortir del mysql i
 utilitzar la següent comanda en la ruta on esta el fitxer guardat.
 Primer anem a la ruta del fitxer
 
@@ -409,8 +403,7 @@ logbin.000002
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image54.png) 
 
-Com es veu a dins del fitxer s'
-enregistren molta informacio la mes rellevant es que ha guardat les dues
+Com es veu a dins del fitxer s'enregistren molta informacio la mes rellevant es que ha guardat les dues
 sentencies CREATE TABLE bar i DROP TABLE bar
 
 Per saber el numero de event que es el CREATE TABLE bar a dins del
@@ -423,16 +416,16 @@ juntament amb mes sentencies.
 concret. Imagina't que ets un administrador de la BD i no vols que les
 instruccions que facis es gravin en el binary_log.**
 
-Per pode desactivar el el log_bin de una sessio en concret tenim que
+Per pode desactivar el el log_bin de una sessio en concret hem de
 desactivar el sql_log_bin per poder fer qualsevol sentencia sense que es
 guardi en el arxiu logbin
 
-Primer tenim que anar al mysql
+Primer hem d'anar al mysql
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image1.png)
 
 Una vegada a dins del mysql utilitzarem la seguent sentencia per
-desactivar el log_bin per aquesta sessio
+desactivar el log_bin per aquesta sessió
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image56.png)
