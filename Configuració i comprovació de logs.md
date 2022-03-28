@@ -407,7 +407,8 @@ logbin.000002
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image53.png)
 
-![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image54.png) Com es veu a dins del fitxer s'
+![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image54.png) 
+Com es veu a dins del fitxer s'
 enregistren molta informacio la mes rellevant es que ha guardat les dues
 sentencies CREATE TABLE bar i DROP TABLE bar
 
@@ -446,7 +447,8 @@ Per comprovar que la sentencia crearem una base de dades y la eliminarem
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image58.png)
 
-![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image59.png)Ara utilitzarem la sentencia binlog per
+![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image59.png)
+Ara utilitzarem la sentencia binlog per
 veure que no queda enregistrat EL CREATE TABLE hola i DROP DATABASE
 hola, com es veu en la captura no ha quedat enregistrat.
 
