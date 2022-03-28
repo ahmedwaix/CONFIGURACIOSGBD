@@ -27,8 +27,8 @@
 
 ***
 
-1.Quins són els logs activats per defecte? Crea un fitxer de
-configuració anomenat logs.cnf a on:
+**1.Quins són els logs activats per defecte? Crea un fitxer de
+configuració anomenat logs.cnf a on:**
 
 El log activat per defecte es el log binari, que ve activat per defecte
 per veure ho tenim que anar a mysql .
@@ -109,15 +109,15 @@ els logs de la Slow Query.
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image12.png)
 
-2\. Comprova l\'estat de les opcions de log que has utilitzat mitjançant
-una sessió de mysql client.
+**2\. Comprova l\'estat de les opcions de log que has utilitzat mitjançant
+una sessió de mysql client.**
 
 ![Interfaz de usuario gráfica, Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image13.png)
 
-3\. Modifica el fitxer de configuració i desactiva els logs de binary,
+**3\. Modifica el fitxer de configuració i desactiva els logs de binary,
 slow query i genral. Nota: Simplament desactiva\'ls no borris altres
-paràmetres com la ruta dels fitxers, etc\...
+paràmetres com la ruta dels fitxers, etc\...**
 
 Per modificar el fitxer de configuració i desactivar els logs de binary,
 slow query i general anem a la ruta on esta el fitxer de logs.cnf.
@@ -152,10 +152,10 @@ desactivat el binary, veiem que log_bin esta desactivat.
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image19.png)
 
-4\. Activa els logs en temps d\'execució mitjançant la sentència SET
+**4\. Activa els logs en temps d\'execució mitjançant la sentència SET
 GLOBAL. També canvia el destí de log general a una taula (paràmetre
 log_output). Quines són les sentències que has utilitzat? A quina taula
-es guarden els dels del general log?
+es guarden els dels del ***general log?*****
 
 Primer anem al mysql
 
@@ -226,9 +226,9 @@ que utilitzar la sentencia següent per veure el que conte.
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image27.png)
 
-5\. Carrega la BD Sakila localitzada a la web de o Descarrega\'t el
+**5\. Carrega la BD Sakila localitzada a la web de o Descarrega\'t el
 fitxer sakila-schema.sql del Moodle. o carrega la BD dins del MySQL
-utilitzant la sentència:
+utilitzant la sentència:**
 
 Per descarregar la base de dades de Sakila primer anem al link següent
 [MySQL :: Other MySQL
@@ -273,8 +273,8 @@ Mostrem les taules que te la base de dades de Sakila.
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image34.png)
 
-6\. Compte el numero de sentències CREATE TABLE dins del general log
-mitjançant una sentencia SQL.
+**6\. Compte el numero de sentències CREATE TABLE dins del general log
+mitjançant una sentencia SQL.**
 
 Per contar quantes sentencies CREATE TABLE hi ha en la taula
 "mysql.general_log" tenim que utilitzar aquesta sentencia mysql i
@@ -288,9 +288,9 @@ Com es veu hi ha 24 sentencies CREATE TABLE en la taula
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image36.png)
 
-7\. Executa una query mitjançant la funció SLEEP(11) per tal de que es
+**7\. Executa una query mitjançant la funció SLEEP(11) per tal de que es
 guardi en el log de Slow Query Log. Mostra el contingut del log
-demostrant-ho.
+demostrant-ho.**
 
 Primer anem al mysql
 
@@ -311,8 +311,8 @@ SLEEP, com es veu esta guardat i ha durant 11 segons
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image38.png)
 
-8\. Assegura\'t que el Binary Log estigui activat i borra tots els logs
-anteriors mitjançant la sentència RESET MASTER.
+**8\. Assegura\'t que el Binary Log estigui activat i borra tots els logs
+anteriors mitjançant la sentència RESET MASTER.**
 
 Primer ens assegurem que tenim el log_bin activat. Utilitzarem aquesta
 sentencia per veure si esta activat i com es veu a la captura si esta
@@ -419,9 +419,9 @@ juntament amb mes sentencies.
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image55.png)
 
-9\. De quina manera podem desactivar el binary log només d'una sessió en
+**9\. De quina manera podem desactivar el binary log només d'una sessió en
 concret. Imagina't que ets un administrador de la BD i no vols que les
-instruccions que facis es gravin en el binary_log.
+instruccions que facis es gravin en el binary_log.**
 
 Per pode desactivar el el log_bin de una sessio en concret tenim que
 desactivar el sql_log_bin per poder fer qualsevol sentencia sense que es
