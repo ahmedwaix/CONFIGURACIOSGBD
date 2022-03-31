@@ -8,7 +8,7 @@
 ***
 
 
-**Activitat 2: ConfiguracioLogs**
+**Activitat 2: Configuració Logs**
 
 
 ***
