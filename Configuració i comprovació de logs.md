@@ -19,7 +19,7 @@
 
 **ASIX**
 
-**29/03/2022**
+**01/04/2022**
 ***
 
 # **[Configuració i comprovació de logs]** ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/logs.png)
