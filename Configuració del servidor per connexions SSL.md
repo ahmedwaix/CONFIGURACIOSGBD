@@ -8,7 +8,7 @@
 ***
 
 
-**Activitat 2: CONFIGURACIÓ SGBD**
+**Activitat 2: Configuració Logs**
 
 
 ***
