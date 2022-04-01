@@ -48,11 +48,10 @@ comanda serveix per desactivar-lo directament.
 
 Tornem a veure l'estat del nostre Firewall ara. ![Texto Descripción
 generada
-automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image62.png)Tal com es veu en la imatge el nostre
-Firewall ja està desactivat!
+automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image62.png)
+Tal com es veu en la imatge el nostre Firewall ja està desactivat!
 
-En el nostra servidor creem l'usuari root que pugi connectar-se des de
-qualsevol màquina amb l\'ordre:
+En el nostra servidor creem l'usuari root que pugi connectar-se des de qualsevol màquina amb l\'ordre:
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image63.png)
