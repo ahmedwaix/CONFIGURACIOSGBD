@@ -35,7 +35,7 @@ d\'autenticació no és segura.**
 
 En primer lloc hem de visualitzar l'estat del Firewall del nostre RedHat, amb l'status!!
 
-[Texto Descripción generada automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image60.png)
+![Texto Descripción generada automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image60.png)
 
 Com hem vist prèviament estava activat, procedim amb la desactivació del
 firewall:
