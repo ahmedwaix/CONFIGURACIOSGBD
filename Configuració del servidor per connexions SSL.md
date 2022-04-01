@@ -108,7 +108,7 @@ En el servidor de red-hat, ens dirigim a la ruta **/var/lib/mysql**,seleccionem 
 
 Els arrosseguem a la màquina local
 
-![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image73.png)![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image74.png)![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image75.png)
+![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image73-75.png)
 
 Posem la ruta dels tres arxius, en el seu lloc corresponen i tal com es veu, no ens dona cap problema, el contrari, ens mostra que s'ha fet
 correctament
