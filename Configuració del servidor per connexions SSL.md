@@ -84,10 +84,11 @@ mysql.
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image68.png)
 
-![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image69.png)
-
 Ara que ja hem fet la sentencia mirem que en el wireshark ho captura. Tal com es veu està la sentencia mysql que
 hem fet.
+
+![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image69.png)
+
 
 **2. Indica els passos que has realitzat per configurar el servidor i
 fer que un dels usuaris de MySQL es connection mitjançant SSL.**
