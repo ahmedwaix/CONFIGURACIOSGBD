@@ -58,7 +58,7 @@ automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagen
 Els permisos són accions que l\'usuari ha de tenir per poder realitzar
 accions a la base de dades, i és per això que amb l'usuari root li donem
 tot tipus de privilegis a qualsevol objecte, i que aquest es pugui
-connectar-se des de qualsevol màquina
+connectar-se des de qualsevol màquina.
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image64.png)
