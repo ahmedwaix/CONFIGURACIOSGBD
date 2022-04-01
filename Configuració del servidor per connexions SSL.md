@@ -34,8 +34,8 @@ SEGURES SoBRE SSL.**
 d\'autenticació no és segura.**
 
 En primer lloc hem de visualitzar l'estat del Firewall del nostre Red
-Hat, amb l'status!![Texto Descripción generada
-automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image60.png)
+Hat, amb l'status!!
+[Texto Descripción generada automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image60.png)
 
 Com hem vist prèviament estava activat, procedim amb la desactivació del
 firewall:
@@ -70,8 +70,9 @@ mysql i per defecte bé connectada amb SSL.
 
 Per que el wireshark pugui capturar el protocol MYSQL i veure les
 sentències i el nom de l\'usuari, hem de desactivar el SSL que ve
-connectat per defecte a if available i posar-o a
-"**No**".![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image66.png)
+connectat per defecte a if available i posar-o a "**No**".
+
+![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image66.png)
 
 Ara anem al wireshark i capturem el username. (username=root)
 
@@ -79,10 +80,13 @@ Ara anem al wireshark i capturem el username. (username=root)
 
 Fem el mateix que abans però aquesta vegada capturem sentències mysql.
 Entrem dins de el workbench i fem una sentencia
-mysql.![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image68.png)
+mysql.
 
-![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image69.png)Ara que ja hem fet la sentencia mirem que
-en el wireshark ho captura. Tal com es veu està la sentencia mysql que
+![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image68.png)
+
+![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image69.png)
+
+Ara que ja hem fet la sentencia mirem que en el wireshark ho captura. Tal com es veu està la sentencia mysql que
 hem fet.
 
 **2. Indica els passos que has realitzat per configurar el servidor i
@@ -90,7 +94,9 @@ fer que un dels usuaris de MySQL es connection mitjançant SSL.**
 
 Modifiquem l'usuari root amb la comanda "**ALTER**",però aquesta vegada
 li afegim que aquest requereixi
-SSL.![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image70.png)
+SSL.
+
+![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image70.png)
 
 Ara hem d\'utilitzar el programa ''**WinSCP'',** per tal de copiar els
 arxius ***SSL KEY FILE (**arxius amb clau SSL**)***, ***SSL CERT FILE
@@ -113,7 +119,9 @@ Els arrosseguem a la màquina local
 
 Posem la ruta dels tres arxius, en el seu lloc corresponen i tal com es
 veu, no ens dona cap problema, el contrari, ens mostra que s'ha fet
-correctament![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image76.png)
+correctament
+
+![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image76.png)
 
 Ara anem al wireshark per comprovar que tot està encriptat i com estem
 veient el usuari i les sentències mysql estan encriptades.
