@@ -218,7 +218,7 @@ que si ha canviat a table.
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image26.png)
 
-La taula on es guarden els logs generals es en "mysql.general_log" gem d'utilitzar la sentencia següent per veure el que conte.
+La taula on es guarden els logs generals es en "mysql.general_log" hem d'utilitzar la sentencia següent per veure el que conte.
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image27.png)
