@@ -95,7 +95,7 @@ Modifiquem l'usuari root amb la comanda "**ALTER**",però aquesta vegada li afeg
 Ara hem d\'utilitzar el programa ''**WinSCP'',** per tal de copiar els
 arxius ***SSL KEY FILE (**arxius amb clau SSL**)***, ***SSL CERT FILE
 (**arxius amb certificat SSL**)***, ***SSL CA FILE (**arxius de
-certificat autoritari SSL**) ***i que tots aquests estiguin en format
+certificat autoritari SSL**) *** i que tots aquests estiguin en format
 públic.
 
 Hem d'iniciar sessió i donar-li a conectar:
