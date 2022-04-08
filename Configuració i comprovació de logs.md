@@ -36,7 +36,7 @@ Per veure-ho hem d'anar a mysql.
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image1.png)
 
 Una vegada aquí introduïm la sentència per veure les variables log. Tal i com es veu en la
-captura el log_bin esta activat per defecte!
+captura el log_bin i el error_log estan activats per defecte!
 
 ![Texto Descripción generada
 automáticamente](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image2.png)
