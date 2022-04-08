@@ -30,7 +30,7 @@
 **1.Quins són els logs activats per defecte? Crea un fitxer de
 configuració anomenat logs.cnf a on:**
 
-El log activat per defecte es el *log binari*, que aquest be activat per defecte.
+El log activat per defecte es el *log binari* i el *error log*, que aquest be activat per defecte.
 Per veure-ho hem d'anar a mysql.
 
 ![](https://github.com/ahmedwaix/CONFIGURACIOSGBD/blob/main/imagenes/image1.png)
